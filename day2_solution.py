@@ -9,7 +9,6 @@ for line in file.readlines():
     gameSets = gameData[1].split("; ")
     resultGame = True
     gameNumber += 1
-
     for sets in gameSets:
         splitSet = sets.split(', ')
         for numColors in splitSet:
